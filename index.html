@@ -1,0 +1,491 @@
+<!DOCTYPE html>
+<html lang="uk">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>NAUMOV CLUB — Бокс та Пілатес в Одесі</title>
+    <meta
+      name="description"
+      content="NAUMOV CLUB — спортивний клуб в Одесі. Бокс, пілатес, персональні та групові тренування."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="NAUMOV CLUB — Бокс та Пілатес в Одесі" />
+    <meta
+      property="og:description"
+      content="Спортивний клуб в Одесі. Бокс, пілатес, персональні та групові тренування."
+    />
+    <meta property="og:image" content="assets/images/naumov-club-hero.webp" />
+    <link rel="icon" href="assets/icons/favicon.svg" />
+    <!-- FAVICON PLACEHOLDER -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Anton&family=Manrope:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header class="header" id="header">
+      <div class="container header__in">
+        <a href="#top" class="logo">NAUMOV <span>CLUB</span></a>
+        <!-- [ LOGO PLACEHOLDER ] -->
+        <button
+          class="burger"
+          id="burger"
+          aria-label="Меню"
+          aria-expanded="false"
+          aria-controls="nav"
+        >
+          <span></span><span></span>
+        </button>
+        <nav class="nav" id="nav" aria-label="Основна навігація">
+          <a href="#about">Про клуб</a><a href="#services">Напрямки</a
+          ><a href="#trainers">Тренери</a> <a href="#pricing">Абонементи</a
+          ><a href="#shop">Інвентар</a><a href="#contacts">Контакти</a>
+          <a href="#signup" class="btn btn--red btn--sm">Записатися</a>
+        </nav>
+      </div>
+    </header>
+
+    <main id="top">
+      <section class="hero">
+        <div class="hero__bg" role="presentation"></div>
+        <!-- image: css/style.css (.hero__bg) -->
+        <div class="container hero__in">
+          <p class="kicker">NAUMOV CLUB · Одеса</p>
+          <h1>Більше, ніж<br />тренування.</h1>
+          <p class="hero__sub">Бокс. Пілатес. Сила. Характер.</p>
+          <p class="hero__txt">
+            Тренуй тіло. Розвивай дисципліну. Ставай сильнішим.
+          </p>
+          <div class="actions">
+            <a href="#signup" class="btn btn--red">Записатися на тренування</a>
+            <a href="#about" class="btn btn--ghost">Дізнатися більше</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="about">
+        <div class="container split">
+          <div class="reveal">
+            <h2>Це не просто тренування</h2>
+            <p class="lead">
+              NAUMOV CLUB — простір для тих, хто хоче ставати сильнішим,
+              дисциплінованішим і впевненішим у собі.
+            </p>
+            <p>
+              Тут поєднуються тренування з боксу, пілатес та індивідуальний
+              підхід до кожного відвідувача.
+            </p>
+          </div>
+          <figure class="media media--tall reveal" data-label="CLUB IMAGE">
+            <img
+              src="assets/images/naumov-club-club.webp"
+              alt="Інтер'єр NAUMOV CLUB в Одесі"
+              width="800"
+              height="1000"
+              loading="lazy"
+              decoding="async"
+            />
+          </figure>
+        </div>
+      </section>
+
+      <section class="section section--dark" id="services">
+        <div class="container">
+          <div class="head reveal">
+            <h2>Напрямки</h2>
+            <p>Обирай свій формат тренувань.</p>
+          </div>
+          <div class="cards2">
+            <article class="service reveal">
+              <figure class="media" data-label="BOXING IMAGE">
+                <img
+                  src="assets/images/naumov-club-boxing.webp"
+                  alt="Тренування з боксу в NAUMOV CLUB в Одесі"
+                  width="1200"
+                  height="800"
+                  loading="lazy"
+                  decoding="async"
+                />
+              </figure>
+              <div class="service__body">
+                <h3>Бокс</h3>
+                <p>
+                  Групові та персональні тренування з боксу для різного рівня
+                  підготовки.
+                </p>
+                <a href="#signup" class="btn btn--ghost btn--sm" data-dir="Бокс"
+                  >Дізнатися більше</a
+                >
+              </div>
+            </article>
+            <article class="service reveal">
+              <figure class="media" data-label="PILATES IMAGE">
+                <img
+                  src="assets/images/naumov-club-pilates.webp"
+                  alt="Заняття з пілатесу в NAUMOV CLUB в Одесі"
+                  width="1200"
+                  height="800"
+                  loading="lazy"
+                  decoding="async"
+                />
+              </figure>
+              <div class="service__body">
+                <h3>Пілатес</h3>
+                <p>
+                  Робота над силою, мобільністю, координацією та контролем тіла.
+                </p>
+                <a
+                  href="#signup"
+                  class="btn btn--ghost btn--sm"
+                  data-dir="Пілатес"
+                  >Дізнатися більше</a
+                >
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="why">
+        <div class="container">
+          <div class="head reveal"><h2>Чому NAUMOV CLUB</h2></div>
+          <div class="grid4">
+            <div class="why reveal">
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M12 3l8 3v6c0 5-3.5 8-8 9-4.5-1-8-4-8-9V6z" />
+              </svg>
+              <h3>Професійний підхід</h3>
+              <p>
+                Тренування побудовані з урахуванням рівня та цілей кожного
+                відвідувача.
+              </p>
+            </div>
+            <div class="why reveal">
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <circle cx="9" cy="8" r="3" />
+                <circle cx="17" cy="9" r="2.5" />
+                <path d="M3 20c0-4 3-6 6-6s6 2 6 6M15 14c3 0 6 1.5 6 5" />
+              </svg>
+              <h3>Сильне оточення</h3>
+              <p>Тренуйся серед людей, які також прагнуть ставати кращими.</p>
+            </div>
+            <div class="why reveal">
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <rect x="3" y="3" width="7" height="7" />
+                <rect x="14" y="3" width="7" height="7" />
+                <rect x="3" y="14" width="7" height="7" />
+                <rect x="14" y="14" width="7" height="7" />
+              </svg>
+              <h3>Різні формати</h3>
+              <p>Групові та персональні тренування.</p>
+            </div>
+            <div class="why reveal">
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M3 18l6-6 4 4 8-9M15 7h6v6" />
+              </svg>
+              <h3>Реальний прогрес</h3>
+              <p>Регулярність, дисципліна та системний підхід до тренувань.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section--dark" id="trainers">
+        <div class="container">
+          <div class="head reveal">
+            <h2>Тренери</h2>
+            <p>Люди, які допомагають тобі ставати сильнішим.</p>
+          </div>
+          <div class="grid4">
+            <article class="trainer reveal">
+              <figure class="media media--portrait" data-label="TRAINER PHOTO">
+                <img
+                  src="assets/images/naumov-club-trainer-01.webp"
+                  alt="Тренер з боксу NAUMOV CLUB"
+                  width="900"
+                  height="1200"
+                  loading="lazy"
+                  decoding="async"
+                />
+              </figure>
+              <small>Тренер</small>
+              <h3>Ім'я Прізвище</h3>
+              <p>Напрям: Бокс</p>
+            </article>
+            <article class="trainer reveal">
+              <figure class="media media--portrait" data-label="TRAINER PHOTO">
+                <img
+                  src="assets/images/naumov-club-trainer-02.webp"
+                  alt="Тренер з боксу NAUMOV CLUB"
+                  width="900"
+                  height="1200"
+                  loading="lazy"
+                  decoding="async"
+                />
+              </figure>
+              <small>Тренер</small>
+              <h3>Ім'я Прізвище</h3>
+              <p>Напрям: Бокс</p>
+            </article>
+            <article class="trainer reveal">
+              <figure class="media media--portrait" data-label="TRAINER PHOTO">
+                <img
+                  src="assets/images/naumov-club-trainer-03.webp"
+                  alt="Тренер з пілатесу NAUMOV CLUB"
+                  width="900"
+                  height="1200"
+                  loading="lazy"
+                  decoding="async"
+                />
+              </figure>
+              <small>Тренер</small>
+              <h3>Ім'я Прізвище</h3>
+              <p>Напрям: Пілатес</p>
+            </article>
+            <article class="trainer reveal">
+              <figure class="media media--portrait" data-label="TRAINER PHOTO">
+                <img
+                  src="assets/images/naumov-club-trainer-04.webp"
+                  alt="Тренер з пілатесу NAUMOV CLUB"
+                  width="900"
+                  height="1200"
+                  loading="lazy"
+                  decoding="async"
+                />
+              </figure>
+              <small>Тренер</small>
+              <h3>Ім'я Прізвище</h3>
+              <p>Напрям: Пілатес</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="pricing">
+        <div class="container">
+          <div class="head reveal">
+            <h2>Обери свій формат</h2>
+            <p>Обирай формат тренувань, який підходить саме тобі.</p>
+          </div>
+          <div class="grid3">
+            <article class="price reveal">
+              <h3>Разове тренування</h3>
+              <p>Для тих, хто хоче спробувати формат.</p>
+              <strong class="price__v">від XXX грн</strong
+              ><a href="#signup" class="btn btn--ghost">Записатися</a>
+            </article>
+            <article class="price price--main reveal">
+              <h3>Абонемент</h3>
+              <p>Кілька тренувань протягом місяця.</p>
+              <strong class="price__v">від XXX грн</strong
+              ><a href="#signup" class="btn btn--red">Обрати</a>
+            </article>
+            <article class="price reveal">
+              <h3>Персональне тренування</h3>
+              <p>Індивідуальна робота з тренером.</p>
+              <strong class="price__v">Ціна уточнюється</strong
+              ><a href="#signup" class="btn btn--ghost">Запитати</a>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section--dark" id="schedule">
+        <div class="container">
+          <div class="head reveal"><h2>Розклад тренувань</h2></div>
+          <div class="schedule reveal">
+            <p>Розклад буде додано</p>
+            <small
+              >Тут з'явиться інтерактивний розклад груп за днями та
+              напрямками.</small
+            >
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="shop">
+        <div class="container">
+          <div class="head reveal">
+            <h2>Екіпірування NAUMOV CLUB</h2>
+            <p>
+              Все необхідне для тренувань можна придбати або замовити
+              безпосередньо в клубі.
+            </p>
+          </div>
+          <div class="grid4">
+            <article class="product reveal">
+              <figure class="media" data-label="PRODUCT IMAGE">
+                <img
+                  src="assets/images/naumov-club-product-01.webp"
+                  alt="Боксерські рукавички"
+                  width="800"
+                  height="600"
+                  loading="lazy"
+                  decoding="async"
+                />
+              </figure>
+              <h3>Боксерські рукавички</h3>
+              <p>Ціна уточнюється</p>
+              <a
+                href="#signup"
+                class="btn btn--ghost btn--sm"
+                data-msg="Хочу замовити: боксерські рукавички"
+                >Замовити</a
+              >
+            </article>
+            <article class="product reveal">
+              <figure class="media" data-label="PRODUCT IMAGE">
+                <img
+                  src="assets/images/naumov-club-product-02.webp"
+                  alt="Боксерські бинти"
+                  width="800"
+                  height="600"
+                  loading="lazy"
+                  decoding="async"
+                />
+              </figure>
+              <h3>Бинти</h3>
+              <p>Ціна уточнюється</p>
+              <a
+                href="#signup"
+                class="btn btn--ghost btn--sm"
+                data-msg="Хочу замовити: бинти"
+                >Замовити</a
+              >
+            </article>
+            <article class="product reveal">
+              <figure class="media" data-label="PRODUCT IMAGE">
+                <img
+                  src="assets/images/naumov-club-product-03.webp"
+                  alt="Боксерська капа"
+                  width="800"
+                  height="600"
+                  loading="lazy"
+                  decoding="async"
+                />
+              </figure>
+              <h3>Капи</h3>
+              <p>Ціна уточнюється</p>
+              <a
+                href="#signup"
+                class="btn btn--ghost btn--sm"
+                data-msg="Хочу замовити: капи"
+                >Замовити</a
+              >
+            </article>
+            <article class="product reveal">
+              <figure class="media" data-label="PRODUCT IMAGE">
+                <img
+                  src="assets/images/naumov-club-product-04.webp"
+                  alt="Спортивна форма NAUMOV CLUB"
+                  width="800"
+                  height="600"
+                  loading="lazy"
+                  decoding="async"
+                />
+              </figure>
+              <h3>Спортивна форма</h3>
+              <p>Ціна уточнюється</p>
+              <a
+                href="#signup"
+                class="btn btn--ghost btn--sm"
+                data-msg="Хочу замовити: спортивна форма"
+                >Замовити</a
+              >
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="cta" id="signup">
+        <div class="container cta__in">
+          <div class="reveal">
+            <h2>Готовий почати?</h2>
+            <p class="lead">Перше тренування — це перший крок.</p>
+          </div>
+          <form class="form reveal" id="form" novalidate>
+            <h3>Записатися на тренування</h3>
+            <label
+              >Ім'я<input name="name" type="text" autocomplete="name" required
+            /></label>
+            <label
+              >Телефон<input
+                name="phone"
+                type="tel"
+                autocomplete="tel"
+                required
+            /></label>
+            <label
+              >Напрямок<select name="dir" id="dir">
+                <option>Бокс</option>
+                <option>Пілатес</option>
+                <option>Персональне тренування</option>
+                <option>Екіпірування</option>
+              </select></label
+            >
+            <label
+              >Повідомлення<textarea name="msg" id="msg" rows="3"></textarea>
+            </label>
+            <button class="btn btn--red" type="submit">
+              Відправити заявку
+            </button>
+            <p class="form__ok" id="ok" role="status" hidden>
+              Дякуємо! Ми отримали вашу заявку та зв'яжемося з вами найближчим
+              часом.
+            </p>
+          </form>
+        </div>
+      </section>
+
+      <section class="section" id="contacts">
+        <div class="container split">
+          <div class="reveal">
+            <h2>Зустрінемося в NAUMOV CLUB</h2>
+            <ul class="contacts">
+              <li>📍 Одеса</li>
+              <li>📞 <a href="#contacts">Телефон — буде додано</a></li>
+              <li>📱 <a href="#contacts">Instagram — буде додано</a></li>
+              <li>💬 <a href="#contacts">Telegram — буде додано</a></li>
+            </ul>
+          </div>
+          <div
+            class="ph ph--map reveal"
+            data-label="GOOGLE MAPS PLACEHOLDER"
+            role="img"
+            aria-label="Місце для карти"
+          >
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2749.1651615055434!2d30.749205499999995!3d46.44542439999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40c633304f5f6cab%3A0x39ed03dc71fa7611!2sNaumov%20Club!5e0!3m2!1suk!2sua!4v1791363761529!5m2!1suk!2sua"
+              width="600"
+              height="450"
+              style="border: 0"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="strict-origin-when-cross-origin"
+            ></iframe>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container footer__in">
+        <a href="#top" class="logo">NAUMOV <span>CLUB</span></a>
+        <nav aria-label="Футер">
+          <a href="#about">Про клуб</a><a href="#services">Бокс</a
+          ><a href="#services">Пілатес</a><a href="#trainers">Тренери</a
+          ><a href="#pricing">Абонементи</a><a href="#shop">Інвентар</a
+          ><a href="#contacts">Контакти</a>
+        </nav>
+        <p class="social">
+          <a href="#contacts">Instagram</a> <a href="#contacts">Telegram</a>
+        </p>
+        <p class="copy">© 2026 NAUMOV CLUB. Усі права захищені.</p>
+      </div>
+    </footer>
+    <script src="js/main.js"></script>
+  </body>
+</html>
